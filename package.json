@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "start": "node server.js",
     "prod": "npm run build && npm run start",
-    "dev:full": "concurrently \"vite\" \"node server.js\""
+    "dev:full": "concurrently \"vite\" \"node server.js\"",
+    "deploy": "npm run build && npx wrangler pages deploy dist --commit-dirty=true"
   },
   "dependencies": {
     "body-parser": "^2.2.1",
