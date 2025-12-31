@@ -15,9 +15,38 @@ export async function onRequest(context) {
 
         webpush.setVapidDetails(mailto, publicVapidKey, privateVapidKey);
 
+        // Calculate Nepali Time (UTC + 5:45)
+        const now = new Date();
+        const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+        const nepaliTime = new Date(utc + (5.75 * 3600000));
+        const hour = nepaliTime.getHours();
+
+        let title = 'Happy New Year 2026! 🎆';
+        let body = 'The celebration continues!';
+
+        if (hour === 5) {
+            title = 'Good Morning (5 AM)! 🌅';
+            body = 'Rise and shine! The first sunrise of 2026 is here.';
+        } else if (hour === 7) {
+            title = '7 AM Update ☕';
+            body = 'Grab your tea/coffee and enjoy the fresh year air.';
+        } else if (hour === 9) {
+            title = '9 AM Power Up ⚡';
+            body = 'The day has begun. Have a wonderful 2026!';
+        } else if (hour === 10) {
+            title = '10 AM Celebration 🎉';
+            body = 'Sharing joy and happiness with you.';
+        } else if (hour === 11) {
+            title = '11 AM Vibes 🎵';
+            body = 'Keep the spirit high!';
+        } else if (hour === 12) {
+            title = '12 PM Noon ☀️';
+            body = 'Half day of the first day! Enjoy your lunch.';
+        }
+
         const payload = JSON.stringify({
-            title: 'Happy New Year 2026! 🎆',
-            body: 'The wait is over! Join the celebration.',
+            title,
+            body,
             icon: '/ogimage.gif'
         });
 
