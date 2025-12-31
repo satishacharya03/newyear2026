@@ -25,22 +25,22 @@ export async function onRequest(context) {
         let body = 'The celebration continues!';
 
         if (hour === 5) {
-            title = 'Good Morning (5 AM)! 🌅';
+            title = 'Happy New Year 2026! - Good Morning (5 AM)! 🌅';
             body = 'Rise and shine! The first sunrise of 2026 is here.';
         } else if (hour === 7) {
-            title = '7 AM Update ☕';
+            title = 'Happy New Year 2026! - 7 AM Update ☕';
             body = 'Grab your tea/coffee and enjoy the fresh year air.';
         } else if (hour === 9) {
-            title = '9 AM Power Up ⚡';
+            title = 'Happy New Year 2026! - 9 AM Power Up ⚡';
             body = 'The day has begun. Have a wonderful 2026!';
         } else if (hour === 10) {
-            title = '10 AM Celebration 🎉';
+            title = 'Happy New Year 2026! - 10 AM Celebration 🎉';
             body = 'Sharing joy and happiness with you.';
         } else if (hour === 11) {
-            title = '11 AM Vibes 🎵';
+            title = 'Happy New Year 2026! - 11 AM Vibes 🎵';
             body = 'Keep the spirit high!';
         } else if (hour === 12) {
-            title = '12 PM Noon ☀️';
+            title = 'Happy New Year 2026! - 12 PM Noon ☀️';
             body = 'Half day of the first day! Enjoy your lunch.';
         }
 
