@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { HERO_TITLE_EN, HERO_TITLE_NE, HERO_SUBTITLE } from '../constants';
+import { CELEBRATION_YEAR, HERO_TITLE_EN, HERO_TITLE_NE, HERO_SUBTITLE } from '../constants';
 import Countdown from './Countdown';
 import { ChevronDown } from 'lucide-react';
 
@@ -19,11 +19,11 @@ const Hero: React.FC = () => {
         className="text-center z-10"
       >
         <span className="inline-block py-1 px-3 rounded-full border border-amber-500/30 text-amber-400 text-xs tracking-[0.2em] uppercase mb-6 bg-amber-900/10 backdrop-blur-sm">
-       
+           Nepali New Year 2083
         </span>
         
         <h1 className="text-7xl md:text-9xl font-bold mb-2 tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400">
-          2026
+           {CELEBRATION_YEAR}
         </h1>
         
         <div className="space-y-2 mb-10">

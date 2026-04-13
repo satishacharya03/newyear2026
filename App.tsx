@@ -148,10 +148,10 @@ function App() {
           <div className="text-center px-6 animate-pulse">
             <Sparkles className="w-12 h-12 text-amber-400 mx-auto mb-6 opacity-80" />
             <h1 className="text-5xl md:text-7xl font-light text-white mb-4 tracking-tighter">
-              SATISH <span className="font-bold text-amber-400">2026</span>
+              SATISH <span className="font-bold text-amber-400">2083</span>
             </h1>
             <h2 className="text-5xl md:text-7xl font-light text-white mb-4 tracking-tighter">
-              Allow notifications to get the best experience
+              Welcome to Nepali New Year 2083
             </h2>
             <p className="text-slate-300 text-sm md:text-base tracking-[0.3em] uppercase mb-12">
               Tap anywhere to begin

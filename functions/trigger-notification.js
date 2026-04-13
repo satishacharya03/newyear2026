@@ -21,26 +21,26 @@ export async function onRequest(context) {
         const nepaliTime = new Date(utc + (5.75 * 3600000));
         const hour = nepaliTime.getHours();
 
-        let title = 'Happy New Year 2026! 🎆';
+        let title = 'Happy Nepali New Year 2083! 🎆';
         let body = 'The celebration continues!';
 
         if (hour === 5) {
-            title = 'Happy New Year 2026! - Good Morning (5 AM)! 🌅';
-            body = 'Rise and shine! The first sunrise of 2026 is here.';
+            title = 'Happy Nepali New Year 2083! - Good Morning (5 AM)! 🌅';
+            body = 'Rise and shine! The first sunrise of 2083 is here.';
         } else if (hour === 7) {
-            title = 'Happy New Year 2026! - 7 AM Update ☕';
+            title = 'Happy Nepali New Year 2083! - 7 AM Update ☕';
             body = 'Grab your tea/coffee and enjoy the fresh year air.';
         } else if (hour === 9) {
-            title = 'Happy New Year 2026! - 9 AM Power Up ⚡';
-            body = 'The day has begun. Have a wonderful 2026!';
+            title = 'Happy Nepali New Year 2083! - 9 AM Power Up ⚡';
+            body = 'The day has begun. Have a wonderful 2083!';
         } else if (hour === 10) {
-            title = 'Happy New Year 2026! - 10 AM Celebration 🎉';
+            title = 'Happy Nepali New Year 2083! - 10 AM Celebration 🎉';
             body = 'Sharing joy and happiness with you.';
         } else if (hour === 11) {
-            title = 'Happy New Year 2026! - 11 AM Vibes 🎵';
+            title = 'Happy Nepali New Year 2083! - 11 AM Vibes 🎵';
             body = 'Keep the spirit high!';
         } else if (hour === 12) {
-            title = 'Happy New Year 2026! - 12 PM Noon ☀️';
+            title = 'Happy Nepali New Year 2083! - 12 PM Noon ☀️';
             body = 'Half day of the first day! Enjoy your lunch.';
         }
 

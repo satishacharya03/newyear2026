@@ -81,7 +81,7 @@ const getSubscriptions = () => readDb();
 // For now, we can also trigger it manually or via a cron job
 app.post('/trigger-notification', (req, res) => {
     const payload = JSON.stringify({
-        title: 'Happy New Year 2026! 🎆',
+        title: 'Happy Nepali New Year 2083! 🎆',
         body: 'The wait is over! Join the celebration.',
         icon: '/ogimage.gif'
     });

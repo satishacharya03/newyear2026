@@ -32,7 +32,7 @@ const Vision: React.FC<VisionProps> = ({ onCelebrate }) => {
             The Vision
           </span>
           <h3 className="text-2xl md:text-4xl font-light leading-tight text-white mb-8">
-            "2026 is not just a new date. It is a canvas for our collective dreams. 
+            "2083 is not just a new date. It is a canvas for our collective dreams. 
             Let us paint it with <span className="text-amber-400 font-normal">kindness</span>, 
             <span className="text-rose-400 font-normal"> courage</span>, and 
             <span className="text-sky-400 font-normal"> unwavering hope</span>."

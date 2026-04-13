@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Sparkles, Music, Bell } from 'lucide-react';
-import { NAV_ITEMS } from '../constants';
+import { CELEBRATION_YEAR, NAV_ITEMS } from '../constants';
 import { motion, AnimatePresence } from 'framer-motion';
 import { NavbarProps } from '../types';
 
@@ -25,7 +25,7 @@ const Navbar: React.FC<NavbarProps> = ({ isCelebrating, onToggleCelebration }) =
         <div className="flex items-center gap-2 cursor-pointer group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <Sparkles className={`w-6 h-6 text-amber-400 transition-transform duration-500 ${isCelebrating ? 'animate-spin' : 'group-hover:rotate-12'}`} />
           <span className="text-xl font-light tracking-widest text-white">
-            SATISH <span className="font-bold text-amber-400">2026</span>
+            SATISH <span className="font-bold text-amber-400">{CELEBRATION_YEAR}</span>
           </span>
         </div>
 
